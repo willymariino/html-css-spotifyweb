@@ -17,6 +17,7 @@ body {
 
 ul {
     list-style-type: none;
+    color: #7b7b7b;
 }
 
 a {
@@ -24,6 +25,15 @@ a {
     color: #fff;
 
 }
+
+.img-icon {
+    width: 50px;
+    height: 45px;
+    color: #5d5d5d;
+
+}
+
+
 
 .container {
     display: flex;
