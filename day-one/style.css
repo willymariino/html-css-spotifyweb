@@ -74,9 +74,16 @@ a {
 
 }
 
+.playlist-font {
+    font-size: 20px;
+    color: #707070;
+}
+
 .download-app {
     margin-top: 100px;
 }
+
+.user-name {}
 
 
 /* Sidebar */
@@ -95,10 +102,15 @@ a {
 
 }
 
+footer {
+    background-color: #282828;
+
+}
+
 @media screen and (max-width: 480px) {
 
 
-    .icon-description {
+    .align-icons .icon-description {
         display: none;
     }
 
