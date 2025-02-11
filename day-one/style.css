@@ -82,3 +82,16 @@ a {
     background-color: #151922;
 
 }
+
+@media screen (max-width: 480px) {
+
+
+    .icon-description {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+}
