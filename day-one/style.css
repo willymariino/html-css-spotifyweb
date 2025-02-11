@@ -51,6 +51,16 @@ a {
 
 }
 
+.home {
+    padding: 40px 10px;
+}
+
+.playlist {
+    padding: 40px 10px;
+
+}
+
+
 /* Sidebar */
 .left {
     width: 20%;
