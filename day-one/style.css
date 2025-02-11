@@ -38,11 +38,14 @@ a {
 }
 
 .icon-description {
-    display: flex;
-    flex-direction: column;
     color: #707070;
     align-items: center;
     font-size: 30px;
+}
+
+.align-icons {
+    display: flex;
+    align-items: center;
 }
 
 
