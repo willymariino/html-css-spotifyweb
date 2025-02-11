@@ -18,11 +18,17 @@ body {
 ul {
     list-style-type: none;
     color: #7b7b7b;
+    display: flex;
+    flex-direction: column;
 
 }
 
+h3 {
+    color: #fff;
+}
+
 .playlist {
-    gap: 10px;
+    gap: 20px;
 }
 
 a {
