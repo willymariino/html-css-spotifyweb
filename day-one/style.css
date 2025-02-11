@@ -21,6 +21,10 @@ ul {
 
 }
 
+.playlist {
+    gap: 10px;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -54,6 +58,7 @@ a {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .right {
