@@ -37,9 +37,12 @@ a {
 
 }
 
-.icon-dscription {
+.icon-description {
+    display: flex;
+    flex-direction: column;
+    color: #707070;
     align-items: center;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 
