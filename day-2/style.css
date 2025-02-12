@@ -87,7 +87,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    margin-top: auto;
     gap: 20px;
 }
 
