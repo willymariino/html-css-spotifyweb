@@ -173,6 +173,22 @@ a {
 
 }
 
+.albums {
+
+    display: flex;
+
+    gap: 20px;
+    background-color: green;
+}
+
+.albums>div {
+    width: calc((100% - 40px) / 6);
+    flex-shrink: 0;
+    background-color: yellow;
+    height: 200px;
+    border: 2px solid black;
+}
+
 
 footer {
     background-color: #282828;
@@ -183,7 +199,13 @@ footer {
 @media screen and (max-width: 480px) {
 
     .left {
-        width: 230px;
+        width: 100px;
+    }
+
+    .right {
+        width: calc(100% - 100px);
+        background-color: #151922;
+
     }
 
 
