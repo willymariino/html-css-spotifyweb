@@ -15,12 +15,16 @@ body {
 
 }
 
+/* contenitore principale*/
 .main-container {
 
     display: flex;
     height: calc(100% - 90px);
 
 }
+
+/* icone sidebar*/
+
 
 .logo-small {
     display: none;
@@ -130,13 +134,14 @@ a {
 
 .top-main {
     height: 90px;
+    background-color: #080b12;
 
 
 }
 
 .upgrade-button {
     margin-top: 20px;
-    padding: 15px 25px 15px 15px;
+    padding: 15px 15px 15px 30px;
     width: 550px;
     height: 80px;
     border-radius: 35px;
@@ -150,6 +155,8 @@ a {
     text-align: center;
 
 }
+
+.main-nav {}
 
 
 footer {
