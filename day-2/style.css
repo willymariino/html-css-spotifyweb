@@ -118,11 +118,39 @@ a {
 
 }
 
+/* main */
+
+
+
 .right {
     width: calc(100% - 230px);
     background-color: #151922;
 
 }
+
+.top-main {
+    height: 90px;
+
+
+}
+
+.upgrade-button {
+    margin-top: 20px;
+    padding: 15px 15px;
+    width: 550px;
+    height: 80px;
+    border-radius: 35px;
+    border: 1px solid white;
+    margin-left: auto;
+}
+
+.upgrade {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
 
 footer {
     background-color: #282828;
