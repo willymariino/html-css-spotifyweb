@@ -182,6 +182,10 @@ footer {
 
 @media screen and (max-width: 480px) {
 
+    .left {
+        width: 230px;
+    }
+
 
     .logo-small {
         display: inline;
@@ -196,6 +200,14 @@ footer {
         flex-direction: column;
         display: none;
         justify-content: center;
+    }
+
+    .upgrade-button {
+        display: none;
+    }
+
+    .main-nav {
+        display: none;
     }
 
     .playlist {
