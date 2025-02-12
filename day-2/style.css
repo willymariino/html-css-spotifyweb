@@ -91,6 +91,10 @@ a {
     gap: 20px;
 }
 
+.user-line {
+    width: 90%;
+}
+
 .playlist-font {
     font-size: 20px;
     color: #707070;
