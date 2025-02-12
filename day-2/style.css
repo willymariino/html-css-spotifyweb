@@ -190,6 +190,20 @@ a {
 .albums>div {
     width: calc((100% - 100px) / 6);
     flex-shrink: 0;
+
+}
+
+.albums-personalized {
+    padding-left: 30px;
+    padding-right: 2100px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.albums-personalized>div {
+    width: calc((100% - 20px) / 2);
+    flex-shrink: 0;
     border: 2px solid black;
 }
 
