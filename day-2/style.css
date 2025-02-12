@@ -82,7 +82,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
+    margin-top: 200px;
     gap: 20px;
 }
 
