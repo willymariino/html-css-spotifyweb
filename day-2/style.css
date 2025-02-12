@@ -190,8 +190,6 @@ a {
 .albums>div {
     width: calc((100% - 100px) / 6);
     flex-shrink: 0;
-    background-color: yellow;
-
     border: 2px solid black;
 }
 
@@ -204,6 +202,76 @@ a {
 footer {
     background-color: #282828;
     height: 90px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .left {
+        width: 100px;
+    }
+
+    .right {
+        width: calc(100% - 100px);
+        background-color: #151922;
+
+    }
+
+
+    .logo-small {
+        display: none;
+    }
+
+    .logo-large {
+        display: inline;
+    }
+
+    .align-icons .icon-description {
+        display: flex;
+        flex-direction: column;
+        display: none;
+        justify-content: center;
+    }
+
+    .upgrade-button {
+        display: none;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .Recently-played {
+        padding-top: 30px;
+    }
+
+
+    .albums-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    .albums-item {
+        flex-wrap: wrap;
+    }
+
+    .download {
+        display: none;
+    }
+
+    .user-name {
+        display: none;
+    }
 
 }
 
@@ -249,6 +317,11 @@ footer {
 
     h3 {
         display: none;
+    }
+
+    .albums-item {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .download {
