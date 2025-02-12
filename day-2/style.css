@@ -13,6 +13,7 @@ body {
     font-weight: <weight>;
 
 
+
 }
 
 /* contenitore principale*/
@@ -20,6 +21,7 @@ body {
 
     display: flex;
     height: calc(100% - 90px);
+    overflow: scroll;
 
 }
 
