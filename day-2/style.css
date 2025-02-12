@@ -184,6 +184,7 @@ a {
     padding-right: 30px;
     display: flex;
     gap: 20px;
+    padding-bottom: 100px;
 
 }
 
@@ -191,6 +192,22 @@ a {
     width: calc((100% - 100px) / 6);
     flex-shrink: 0;
 
+}
+
+.album-description {
+    text-align: center;
+
+}
+
+.song {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.artist {
+    text-align: center;
+    columns: gray;
 }
 
 .albums-personalized {
@@ -204,7 +221,7 @@ a {
 .albums-personalized>div {
     width: calc((100% - 20px) / 2);
     flex-shrink: 0;
-    border: 2px solid black;
+
 }
 
 .album-image {
