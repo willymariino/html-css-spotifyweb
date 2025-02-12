@@ -156,7 +156,22 @@ a {
 
 }
 
-.main-nav {}
+.main-nav {
+    display: flex;
+    height: 90px;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.nav-options {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #70747d;
+
+}
 
 
 footer {
