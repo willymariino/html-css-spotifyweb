@@ -16,6 +16,8 @@ body {
 }
 
 .main-container {
+
+    display: flex;
     height: calc(100% - 90px);
 
 }
