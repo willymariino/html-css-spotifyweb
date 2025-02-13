@@ -275,16 +275,46 @@ footer {
 .footer-image {
     width: 100px;
     height: 110px;
-    margin: 50px 20px;
+    justify-content: center;
+    display: inline-block;
 }
 
-.song-playing {
-    text-align: center;
+
+
+.container {
+    display: flex;
+    justify-content: left;
+    max-width: 1400px;
+    padding: 40px;
+    gap: 20px;
 }
 
-.song-name {
+/* Image styling */
+
+
+.image-box img {
+    max-width: 700px;
+    height: auto;
+
+}
+
+/* Text section */
+.text-box {
+    max-width: 600px;
+    text-align: left;
+}
+
+.text-box h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
     color: #fff;
-    font-size: 30px;
+}
+
+.text-box p {
+    font-size: 24px;
+    color: #70747d;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
