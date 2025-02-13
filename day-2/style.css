@@ -284,7 +284,7 @@ footer {
 .container {
     display: flex;
     justify-content: left;
-    max-width: 1400px;
+    max-width: 400px;
     padding: 40px;
     gap: 20px;
 }
@@ -316,6 +316,18 @@ footer {
     color: #70747d;
     margin-bottom: 20px;
 }
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 80px;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+
 
 @media screen and (max-width: 768px) {
 
