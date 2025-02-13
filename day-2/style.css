@@ -278,6 +278,15 @@ footer {
     margin: 50px 20px;
 }
 
+.song-playing {
+    text-align: center;
+}
+
+.song-name {
+    color: #fff;
+    font-size: 30px;
+}
+
 @media screen and (max-width: 768px) {
 
     .left {
