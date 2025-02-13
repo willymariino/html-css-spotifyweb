@@ -141,6 +141,7 @@ a {
     top: 0;
     left: 0;
     position: sticky;
+    text-align: right;
 
 
 }
@@ -159,7 +160,6 @@ a {
     display: inline-block;
     font-size: 40px;
     text-transform: uppercase;
-    text-align: right;
     border-radius: 35px;
     border: 1px solid white;
     padding: 15px 15px 15px 35px;
@@ -253,6 +253,10 @@ a {
     /* border: 2px solid white; */
     flex-wrap: wrap;
 
+}
+
+.album-round {
+    border-radius: 100px;
 }
 
 .album-image {
