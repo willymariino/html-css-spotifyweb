@@ -234,6 +234,23 @@ a {
     width: calc((100% - 20px) / 2);
     flex-shrink: 0;
     /* border: 2px solid white; */
+    border-radius: 100px;
+
+}
+
+.popular-artists {
+    padding-left: 30px;
+    padding-right: 2000px;
+    display: flex;
+
+    gap: 20px;
+
+}
+
+.popular-artists>div {
+    width: calc((100% - 20px) / 2);
+    flex-shrink: 0;
+    /* border: 2px solid white; */
     flex-wrap: wrap;
 
 }
