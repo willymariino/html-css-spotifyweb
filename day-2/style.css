@@ -10,7 +10,6 @@ body {
     height: 100vh;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     overflow: scroll;
 
 
@@ -121,6 +120,7 @@ a {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 
 }
 
@@ -131,17 +131,21 @@ a {
 .right {
     width: calc(100% - 230px);
     background-color: #151922;
+    overflow-y: auto;
 
 }
 
 .top-main {
     height: 90px;
-    background-color: #080b12;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    position: sticky;
 
 
 }
 
-.upgrade-button {
+/* .upgrade-button {
     margin-top: 20px;
     padding: 15px 15px 15px 35px;
     width: 550px;
@@ -149,12 +153,18 @@ a {
     border-radius: 35px;
     border: 1px solid white;
     margin-left: auto;
-}
+} */
 
 .upgrade {
+    display: inline-block;
     font-size: 40px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: right;
+    border-radius: 35px;
+    border: 1px solid white;
+    padding: 15px 15px 15px 35px;
+    margin-top: 20px;
+    margin-left: auto;
 
 }
 
@@ -215,8 +225,9 @@ a {
 
 .albums-personalized {
     padding-left: 30px;
-    padding-right: 2100px;
+    padding-right: 2000px;
     display: flex;
+
     gap: 20px;
 
 }
@@ -224,6 +235,8 @@ a {
 .albums-personalized>div {
     width: calc((100% - 20px) / 2);
     flex-shrink: 0;
+    /* border: 2px solid white; */
+    flex-wrap: wrap;
 
 }
 
