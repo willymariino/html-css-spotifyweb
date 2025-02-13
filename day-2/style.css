@@ -345,6 +345,36 @@ footer {
     gap: 40px;
 }
 
+.progress-bar {
+    display: flex;
+    width: 300px;
+
+}
+
+.footer-icons-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 200px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.hr-1 {
+    border: 1px solid #fff;
+    width: 40px;
+}
+
+.hr-2 {
+    border: 1px solid #70747d;
+    width: 200px;
+    margin-left: -20px;
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
