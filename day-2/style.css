@@ -568,7 +568,9 @@ footer {
     }
 
     .main-nav {
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
     }
 
     .playlist {
