@@ -108,11 +108,13 @@ a {
 }
 
 .download-app {
+    display: flex;
     margin-top: 100px;
     align-items: center;
 }
 
 .profile {
+    display: flex;
     align-items: center;
 }
 
